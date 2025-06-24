@@ -10,7 +10,7 @@ const Navbar = () => {
             <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-sm">CC</span>
             </div>
-            <span className="text-xl font-bold text-gray-800">CowCare</span>
+            <span className="text-xl font-bold text-gray-800">Cowlytics</span>
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">
@@ -24,26 +24,26 @@ const Navbar = () => {
               href="#services"
               className="text-gray-700 hover:text-green-600 transition-colors"
             >
-              Services
+              Our Services
             </a>
             <a
               href="#about"
               className="text-gray-700 hover:text-green-600 transition-colors"
             >
-              About
+              About Us
             </a>
             <a
               href="#contact"
               className="text-gray-700 hover:text-green-600 transition-colors"
             >
-              Contact
+              Contact Us
             </a>
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm text-gray-600">
               <Phone className="w-4 h-4" />
-              <span>(555) 123-4567</span>
+              <span>(250) 7830-138</span>
             </div>
             <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors">
               Emergency Call

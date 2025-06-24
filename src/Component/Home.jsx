@@ -1,5 +1,7 @@
 import React from "react";
 import { ArrowRight, Shield, Heart, Clock } from "lucide-react";
+import Services from "./Services";
+import About from "./About";
 
 const Home = () => {
   return (
@@ -84,6 +86,10 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+      <Services />
+      <div className="">
+        <About />
       </div>
     </section>
   );
