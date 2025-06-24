@@ -2,6 +2,7 @@ import React from "react";
 import { ArrowRight, Shield, Heart, Clock } from "lucide-react";
 import Services from "./Services";
 import About from "./About";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -25,13 +26,15 @@ const Home = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition-all transform hover:scale-105 flex items-center gap-2">
-                Schedule Consultation
-                <ArrowRight className="w-5 h-5" />
-              </button>
-              <button className="border-2 border-green-600 text-green-600 px-8 py-4 rounded-lg font-semibold hover:bg-green-600 hover:text-white transition-all">
-                Emergency Services
-              </button>
+              <Link to="/book">
+                <button className="bg-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition-all transform hover:scale-105 flex items-center gap-2">
+                  Schedule Consultation
+                  <ArrowRight className="w-5 h-5" />
+                </button>
+              </Link>
+                <button className="border-2 border-green-600 text-green-600 px-8 py-4 rounded-lg font-semibold hover:bg-green-600 hover:text-white transition-all">
+                  Emergency Services
+                </button>
             </div>
 
             <div className="grid grid-cols-3 gap-6 pt-8">
