@@ -45,9 +45,14 @@ const Navbar = () => {
               <Phone className="w-4 h-4" />
               <span>(250) 7830-138</span>
             </div>
-            <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors">
+            {/* <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors">
               Emergency Call
-            </button>
+            </button> */}
+            <a href="tel:+250783012138">
+              <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors">
+                Emergency Call
+              </button>
+            </a>
           </div>
 
           <button className="md:hidden">
