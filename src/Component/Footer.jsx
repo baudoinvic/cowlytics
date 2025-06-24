@@ -7,6 +7,7 @@ import {
   Twitter,
   Instagram,
 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,7 +19,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
                 <span className="text-white font-bold text-sm">CC</span>
               </div>
-              <span className="text-xl font-bold">CowCare</span>
+              <span className="text-xl font-bold">Cowlytics</span>
             </div>
             <p className="text-gray-400">
               Professional cattle care services with over 15 years of
@@ -35,24 +36,36 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="#" className="hover:text-green-600 transition-colors">
+                <Link
+                  to="/health-examinations"
+                  className="hover:text-green-600 transition-colors"
+                >
                   Health Examinations
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-green-600 transition-colors">
+                <Link
+                  to="/vaccination-programs"
+                  className="hover:text-green-600 transition-colors"
+                >
                   Vaccination Programs
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-green-600 transition-colors">
+                <Link
+                  to="/emergency-care"
+                  className="hover:text-green-600 transition-colors"
+                >
                   Emergency Care
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-green-600 transition-colors">
+                <Link
+                  to="/consultation"
+                  className="hover:text-green-600 transition-colors"
+                >
                   Consultation
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -61,36 +74,33 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a
-                  href="#home"
-                  className="hover:text-green-600 transition-colors"
-                >
+                <Link to="/" className="hover:text-green-600 transition-colors">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#services"
+                <Link
+                  to="/services"
                   className="hover:text-green-600 transition-colors"
                 >
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#about"
+                <Link
+                  to="/about"
                   className="hover:text-green-600 transition-colors"
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#contact"
+                <Link
+                  to="/contact"
                   className="hover:text-green-600 transition-colors"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -100,11 +110,11 @@ const Footer = () => {
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span>(555) 123-4567</span>
+                <span>(250) 7830-138</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>info@cowcare.com</span>
+                <span>info@cowlytics.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4" />
@@ -116,8 +126,8 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
           <p>
-            &copy; 2024 CowCare. All rights reserved. | Professional cattle care
-            services you can trust.
+            &copy; 2024 Cowlytics. All rights reserved. | Professional cattle
+            care services you can trust.
           </p>
         </div>
       </div>
