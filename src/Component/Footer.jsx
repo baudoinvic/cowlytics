@@ -1,13 +1,11 @@
 import React from "react";
-import {
-  Phone,
-  Mail,
-  MapPin,
-  Facebook,
-  Twitter,
-  Instagram,
-} from "lucide-react";
+import { MdPhoneEnabled } from "react-icons/md";
+import { CiMail } from "react-icons/ci";
 import { Link } from "react-router-dom";
+import { CiLocationOn } from "react-icons/ci";
+import { FaFacebook } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { AiOutlineInstagram } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -26,9 +24,9 @@ const Footer = () => {
               experience. Your trusted partner in livestock health.
             </p>
             <div className="flex space-x-4">
-              <Facebook className="w-5 h-5 text-gray-400 hover:text-green-600 cursor-pointer transition-colors" />
-              <Twitter className="w-5 h-5 text-gray-400 hover:text-green-600 cursor-pointer transition-colors" />
-              <Instagram className="w-5 h-5 text-gray-400 hover:text-green-600 cursor-pointer transition-colors" />
+              <FaFacebook className="w-5 h-5 text-gray-400 hover:text-green-600 cursor-pointer transition-colors" />
+              <FaXTwitter className="w-5 h-5 text-gray-400 hover:text-green-600 cursor-pointer transition-colors" />
+              <AiOutlineInstagram className="w-5 h-5 text-gray-400 hover:text-green-600 cursor-pointer transition-colors" />
             </div>
           </div>
 
@@ -109,15 +107,15 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-center space-x-2">
-                <Phone className="w-4 h-4" />
+                <MdPhoneEnabled className="w-4 h-4" />
                 <span>(250) 7830-138</span>
               </li>
               <li className="flex items-center space-x-2">
-                <Mail className="w-4 h-4" />
+                <CiMail className="w-4 h-4" />
                 <span>info@cowlytics.com</span>
               </li>
               <li className="flex items-center space-x-2">
-                <MapPin className="w-4 h-4" />
+                <CiLocationOn className="w-4 h-4" />
                 <span>123 Farm Road, Rural County</span>
               </li>
             </ul>
