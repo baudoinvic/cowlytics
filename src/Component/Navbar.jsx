@@ -1,5 +1,6 @@
 import React from "react";
 import { Menu, Phone, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -12,32 +13,31 @@ const Navbar = () => {
             </div>
             <span className="text-xl font-bold text-gray-800">Cowlytics</span>
           </div>
-
           <nav className="hidden md:flex items-center space-x-8">
-            <a
-              href="#home"
+            <Link
+              to="/"
               className="text-gray-700 hover:text-green-600 transition-colors"
             >
               Home
-            </a>
-            <a
-              href="#services"
+            </Link>
+            <Link
+              to="/services"
               className="text-gray-700 hover:text-green-600 transition-colors"
             >
               Our Services
-            </a>
-            <a
-              href="#about"
+            </Link>
+            <Link
+              to="/about"
               className="text-gray-700 hover:text-green-600 transition-colors"
             >
               About Us
-            </a>
-            <a
-              href="#contact"
+            </Link>
+            <Link
+              to="/contact"
               className="text-gray-700 hover:text-green-600 transition-colors"
             >
               Contact Us
-            </a>
+            </Link>
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">

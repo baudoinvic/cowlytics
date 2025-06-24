@@ -3,11 +3,13 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-gray-800 text-white">
+    <section id="contact" className="py-20  text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Get in Touch</h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <h2 className="text-4xl font-bold mb-4 text-gray-500">
+            Get in Touch
+          </h2>
+          <p className="text-xl text-gray-500 max-w-3xl mx-auto">
             Ready to provide the best care for your cattle? Contact us today for
             professional veterinary services and consultation.
           </p>
@@ -18,36 +20,38 @@ const Contact = () => {
             <div className="bg-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <Phone className="w-8 h-8" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Phone</h3>
-            <p className="text-gray-300">(555) 123-4567</p>
-            <p className="text-gray-300">(555) 987-6543</p>
+            <h3 className="text-xl font-semibold mb-2 text-gray-500">Phone</h3>
+            <p className="text-gray-500">(555) 123-4567</p>
+            <p className="text-gray-500">(555) 987-6543</p>
           </div>
 
           <div className="text-center">
             <div className="bg-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <Mail className="w-8 h-8" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Email</h3>
-            <p className="text-gray-300">info@cowcare.com</p>
-            <p className="text-gray-300">emergency@cowcare.com</p>
+            <h3 className="text-xl font-semibold mb-2 text-gray-500">Email</h3>
+            <p className="text-gray-500">info@cowcare.com</p>
+            <p className="text-gray-500">emergency@cowcare.com</p>
           </div>
 
           <div className="text-center">
             <div className="bg-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <MapPin className="w-8 h-8" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Location</h3>
-            <p className="text-gray-300">123 Farm Road</p>
-            <p className="text-gray-300">Rural County, ST 12345</p>
+            <h3 className="text-xl font-semibold mb-2 text-gray-500">
+              Location
+            </h3>
+            <p className="text-gray-500">123 Farm Road</p>
+            <p className="text-gray-500">Rural County, ST 12345</p>
           </div>
 
           <div className="text-center">
             <div className="bg-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <Clock className="w-8 h-8" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Hours</h3>
-            <p className="text-gray-300">Mon-Fri: 7AM-6PM</p>
-            <p className="text-gray-300">24/7 Emergency</p>
+            <h3 className="text-xl font-semibold mb-2 text-gray-500">Hours</h3>
+            <p className="text-gray-500">Mon-Fri: 7AM-6PM</p>
+            <p className="text-gray-500">24/7 Emergency</p>
           </div>
         </div>
 
