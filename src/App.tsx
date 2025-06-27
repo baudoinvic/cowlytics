@@ -7,8 +7,6 @@ import Services from "./Component/Services";
 import Contact from "./Component/Contact";
 import Book from "./Component/Book";
 
-
-
 function App() {
   return (
     <Router>
