@@ -19,7 +19,6 @@ const Services = () => {
       features: [
         "Physical examinations",
         "Disease screening",
-        "Health certificates",
       ],
     },
     {
