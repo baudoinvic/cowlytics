@@ -29,7 +29,6 @@ const Services = () => {
       features: [
         "Real-time tracking",
         "Health alerts",
-        "Performance analytics",
       ],
     },
     {
@@ -40,7 +39,6 @@ const Services = () => {
       features: [
         "Disease prevention",
         "Immunity boosters",
-        "Scheduled programs",
       ],
     },
     {
