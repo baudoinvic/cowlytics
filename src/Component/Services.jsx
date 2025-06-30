@@ -64,7 +64,7 @@ const Services = () => {
       title: "Consultation",
       description:
         "Professional advice on cattle management, breeding, and farm operations.",
-      features: ["Expert guidance", "Best practices", "Problem solving"],
+      features: ["Expert guidance", "Best practices"],
     },
   ];
 
